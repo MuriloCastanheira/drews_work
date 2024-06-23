@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+                        'como_anda.py = drews_work.como_anda:main'
         ],
     },
 )
